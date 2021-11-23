@@ -7,6 +7,7 @@ This fork was created to easily update highlight grav plug to latest highlight.j
 `highlight` is a [Grav](http://github.com/getgrav/grav) plugin that adds simple and powerful code highlighting functionality utilizing [Highlight.js](https://highlightjs.org/).
 
 > Highlight.js: [plugin](https://highlightjs.org/): v11.3.1
+
 > Highlight.js line numbers [plugin](https://github.com/wcoder/highlightjs-line-numbers.js/): v2.8.0
 
 ## Manual Installation REQUIRED
