@@ -1,25 +1,15 @@
+This fork is to be used for using the latest highlight.js scripts.
+
 # Grav Highlight Plugin
 
 ![Highlight](assets/readme_1.png)
 
 `highlight` is a [Grav](http://github.com/getgrav/grav) plugin that adds simple and powerful code highlighting functionality utilizing [Highlight.js](https://highlightjs.org/).
 
-> Highlight.js: v10.5.0  
+> Highlight.js: [plugin](https://highlightjs.org/): v11.3.1
 > Highlight.js line numbers [plugin](https://github.com/wcoder/highlightjs-line-numbers.js/): v2.8.0
 
-# Installation
-
-Installing the Highlight plugin can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the plugin with a simple terminal command, while the manual method enables you to do so via a zip file. 
-
-## GPM Installation (Preferred)
-
-The simplest way to install this plugin is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through your system's Terminal (also called the command line).  From the root of your Grav install type:
-
-    bin/gpm install highlight
-
-This will install the Highlight plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/highlight`.
-
-## Manual Installation
+## Manual Installation REQUIRED
 
 To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `highlight`. You can find these files either on [GitHub](https://github.com/getgrav/grav-plugin-highlight) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
 
@@ -140,34 +130,10 @@ Check out a [live demo](https://highlightjs.org/static/demo/) of these themes.
 
 Following languages are supported:
 
-|                        |                          |                           |
-| :--------------------- | :--------------------    | :----------------------   |
-| .properties            | JSON                     | R                         |
-| Apache config          | Kotlin                   | Ruby                      |
-| Bash                   | Less                     | Rust                      |
-| C                      | Lua                      | SCSS                      |
-| C#                     | Makefile                 | Shell Session             |
-| C++                    | Markdown                 | SQL                       |
-| CoffeeScript           | Nginx config             | Swift                     |
-| CSS                    | Objective-C              | TOML, also INI            |
-| Diff                   | Perl                     | Twig                      |
-| Go                     | PHP                      | TypeScript                |
-| HTML, XML              | PHP Template             | Visual Basic .NET         |
-| HTTP                   | Plain text               | YAML                      |
-| Java                   | Python                   |                           |
-| JavaScript             | Python REPL              |                           |
-
-# Updating
-
-As development for the Highlight plugin continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating Highlight is easy, and can be done through Grav's GPM system, as well as manually.
-
-## GPM Update (Preferred)
-
-The simplest way to update this plugin is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm). You can do this with this by navigating to the root directory of your Grav install using your system's Terminal (also called command line) and typing the following:
-
-    bin/gpm update highlight
-
-This command will check your Grav install to see if your Highlight plugin is due for an update. If a newer release is found, you will be asked whether or not you wish to update. To continue, type `y` and hit enter. The plugin will automatically update and clear Grav's cache.
+Bash, C, C#, C++, CSS, Diff, Dockerfile, G-Code (ISO 6983), Go, HTML, XML, JSON, Java, 
+JavaScript, Kotlin, Less, Lua, Nginx config, Makefile, Markdown, Objective-C, PHP, 
+PHP Template, Perl, Plain Text, Powershell, Python, Python, REPL, R, Ruby, Rust, SCSS, 
+SQL, Shell, Session, Swift, TOML also INI, TypeScript, Visual Basic .NET, VBScript, YAML
 
 ## Manual Update
 

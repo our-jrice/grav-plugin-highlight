@@ -50,7 +50,7 @@ class HighlightPlugin extends Plugin
             $init .= "hljs.initLineNumbersOnLoad();\n";
         }
         $theme = $this->config->get('plugins.highlight.theme') ?: 'default';
-        $this->grav['assets']->addCss('plugin://highlight/js/styles/'.$theme.'.css');
+        $this->grav['assets']->addCss('plugin://highlight/js/styles/'.$theme.'.min.css');
         $this->grav['assets']->addJs('plugin://highlight/js/highlight.min.js');
         if ($this->config->get('plugins.highlight.lines')) {
             $this->grav['assets']->addJs('plugin://highlight/js/highlightjs-line-numbers.min.js');
