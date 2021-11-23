@@ -1,4 +1,4 @@
-This fork is to be used for using the latest highlight.js scripts.
+This fork was created to easily update highlight grav plug to latest highlight.js script.
 
 # Grav Highlight Plugin
 
