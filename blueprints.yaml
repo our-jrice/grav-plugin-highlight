@@ -45,101 +45,245 @@ form:
       label: CSS Theme
       default: default
       options:
-        default: Default
-        a11y-dark: A11y Dark
-        a11y-light: A11y Light
-        agate: Agate
-        an-old-hope: An Old Hope
-        androidstudio: Android Studio
-        arduino-light: Arduino Light
-        arta: Arta
-        ascetic: Ascetic
-        atelier-cave-dark: Atelier Cave Dark
-        atelier-cave-light: Atelier Cave Light
-        atelier-dune-dark: Atelier Dune Dark
-        atelier-dune-light: Atelier Dune Light
-        atelier-estuary-dark: Atelier Estuary Dark
-        atelier-estuary-light: Atelier Estuary Light
-        atelier-forest-dark: Atelier Forest Dark
-        atelier-forest-light: Atelier Forest Light
-        atelier-heath-dark: Atelier Heath Dark
-        atelier-heath-light: Atelier Heath Light
-        atelier-lakeside-dark: Atelier Lakeside Dark
-        atelier-lakeside-light: Atelier Lakeside Light
-        atelier-plateau-dark: Atelier Plateau Dark
-        atelier-plateau-light: Atelier Plateau Light
-        atelier-savanna-dark: Atelier Savanna Dark
-        atelier-savanna-light: Atelier Savanna Light
-        atelier-seaside-dark: Atelier Seaside Dark
-        atelier-seaside-light: Atelier Seaside Light
-        atelier-sulphurpool-dark: Atelier Sulphurpool Dark
-        atelier-sulphurpool-light: Atelier Sulphurpool Light
-        atom-one-dark: Atom One Dark
-        atom-one-dark-reasonable: Atom One Dark Reasonable
-        atom-one-light: Atom One Light
-        brown-paper: Brown Paper
-        codepen-embed: Codepen Embed
-        color-brewer: Color Brewer
-        darcula: Darcula
-        dark: Dark
-        docco: Docco
-        dracula: Dracula
-        far: Far
-        foundation: Foundation
-        github: Github
-        github-gist: Github Gist
-        gml: GML
-        googlecode: GoogleCode
-        gradient-dark: Gradient Dark
-        gradient-light: Gradient Light
-        grayscale: Grayscale
-        gruvbox-dark: Gruvbox Dark
-        gruvbox-light: Gruvbox Light
-        hopscotch: Hopscotch
-        hybrid: Hybrid
-        idea: Idea
-        ir-black: IR-Black
-        isbl-editor-dark: ISBL Editor Dark
-        isbl-editor-light: ISBL Editor Light
-        kimbie.dark: Kimbie Dark
-        kimbie.light: Kimbie Light
-        learn: Grav Learn
-        lightfair: Lightfair
-        lioshi: Lioshi
-        magula: Magula
-        mono-blue: Mono Blue
-        monokai: Monokai
-        monokai-sublime: Monokai Sublime
-        night-owl: Night Owl
-        nnfx-dark: NNFX Dark
-        nnfx: NNFX
-        nord: Nord
-        obsidian: Obsidian
-        ocean: Ocean
-        paraiso-dark: Paraiso Dark
-        paraiso-light: Paraiso Light
-        pojoaque: Pojoaque
-        purebasic: Purebasic
-        qtcreator_dark: Qt Creator Dark
-        qtcreator_light: Qt Creator Light
-        railscasts: Railscasts
-        rainbow: Rainbow
-        routeros: Routeros
-        school-book: School Book
-        shades-of-purple: Shades Of Purple
-        solarized-dark: Solarized Dark
-        solarized-light: Solarized Light
-        srcery: Srcery
-        stackoverflow-dark: Stackoverflow Dark
-        stackoverflow-light: Stackoverflow Light
-        sunburst: Sunburst
-        tomorrow: Tomorrow
-        tomorrow-night: Tomorrow Night
-        tomorrow-night-blue: Tomorrow Night Blue
-        tomorrow-night-bright: Tomorrow Night Bright
-        tomorrow-night-eighties: Tomorrow Night Eighties
-        vs: Visual Studio
-        vs2015: Visual Studio 2015
-        xcode: XCode
-        xt256: xt256
-        zenburn: Zenburn
+        default : Default
+        default-dark : Default Dark Base16
+        default-light : Default Light Base16
+        a11y-dark : A11y Dark
+        a11y-light : A11y Light
+        agate : Agate
+        androidstudio : Androidstudio
+        an-old-hope : An Old Hope
+        apathy : Apathy Base16
+        apprentice : Apprentice Base16
+        arduino-light : Arduino Light
+        arta : Arta
+        ascetic : Ascetic
+        ashes : Ashes Base16
+        atelier-cave : Atelier Cave Base16
+        atelier-cave-light : Atelier Cave Light Base16
+        atelier-dune : Atelier Dune Base16
+        atelier-dune-light : Atelier Dune Light Base16
+        atelier-estuary : Atelier Estuary Base16
+        atelier-estuary-light : Atelier Estuary Light Base16
+        atelier-forest : Atelier Forest Base16
+        atelier-forest-light : Atelier Forest Light Base16
+        atelier-heath : Atelier Heath Base16
+        atelier-heath-light : Atelier Heath Light Base16
+        atelier-lakeside : Atelier Lakeside Base16
+        atelier-lakeside-light : Atelier Lakeside Light Base16
+        atelier-plateau : Atelier Plateau Base16
+        atelier-plateau-light : Atelier Plateau Light Base16
+        atelier-savanna : Atelier Savanna Base16
+        atelier-savanna-light : Atelier Savanna Light Base16
+        atelier-seaside : Atelier Seaside Base16
+        atelier-seaside-light : Atelier Seaside Light Base16
+        atelier-sulphurpool : Atelier Sulphurpool Base16
+        atelier-sulphurpool-light : Atelier Sulphurpool Light Base16
+        atlas : Atlas Base16
+        atom-one-dark : Atom One Dark
+        atom-one-dark-reasonable : Atom One Dark Reasonable
+        atom-one-light : Atom One Light
+        bespin : Bespin Base16
+        black-metal : Black Metal Base16
+        black-metal-bathory : Black Metal Bathory Base16
+        black-metal-burzum : Black Metal Burzum Base16
+        black-metal-dark-funeral : Black Metal Dark Funeral Base16
+        black-metal-gorgoroth : Black Metal Gorgoroth Base16
+        black-metal-immortal : Black Metal Immortal Base16
+        black-metal-khold : Black Metal Khold Base16
+        black-metal-marduk : Black Metal Marduk Base16
+        black-metal-mayhem : Black Metal Mayhem Base16
+        black-metal-nile : Black Metal Nile Base16
+        black-metal-venom : Black Metal Venom Base16
+        brewer : Brewer Base16
+        bright : Bright Base16
+        brogrammer : Brogrammer Base16
+        brown-paper : Brown Paper
+        brush-trees : Brush Trees Base16
+        brush-trees-dark : Brush Trees Dark Base16
+        chalk : Chalk Base16
+        circus : Circus Base16
+        classic-dark : Classic Dark Base16
+        classic-light : Classic Light Base16
+        codepen-embed : Codepen Embed
+        codeschool : Codeschool Base16
+        color-brewer : Color Brewer
+        colors : Colors Base16
+        cupcake : Cupcake Base16
+        cupertino : Cupertino Base16
+        danqing : Danqing Base16
+        darcula : Darcula Base16
+        dark : Dark
+        darkmoss : Darkmoss Base16
+        darktooth : Darktooth Base16
+        dark-violet : Dark Violet Base16
+        decaf : Decaf Base16
+        devibeans : Devibeans
+        dirtysea : Dirtysea Base16
+        docco : Docco
+        dracula : Dracula Base16
+        edge-dark : Edge Dark Base16
+        edge-light : Edge Light Base16
+        eighties : Eighties Base16
+        embers : Embers Base16
+        equilibrium-dark : Equilibrium Dark Base16
+        equilibrium-gray-dark : Equilibrium Gray Dark Base16
+        equilibrium-gray-light : Equilibrium Gray Light Base16
+        equilibrium-light : Equilibrium Light Base16
+        espresso : Espresso Base16
+        eva : Eva Base16
+        eva-dim : Eva Dim Base16
+        far : Far
+        flat : Flat Base16
+        foundation : Foundation
+        framer : Framer Base16
+        fruit-soda : Fruit Soda Base16
+        gigavolt : Gigavolt Base16
+        github : Github
+        github : Github Base16
+        github-dark : Github Dark
+        github-dark-dimmed : Github Dark Dimmed
+        gml : Gml
+        googlecode : Googlecode
+        google-dark : Google Dark Base16
+        google-light : Google Light Base16
+        gradient-dark : Gradient Dark
+        gradient-light : Gradient Light
+        grayscale : Grayscale
+        grayscale-dark : Grayscale Dark Base16
+        grayscale-light : Grayscale Light Base16
+        green-screen : Green Screen Base16
+        gruvbox-dark-hard : Gruvbox Dark Hard Base16
+        gruvbox-dark-medium : Gruvbox Dark Medium Base16
+        gruvbox-dark-pale : Gruvbox Dark Pale Base16
+        gruvbox-dark-soft : Gruvbox Dark Soft Base16
+        gruvbox-light-hard : Gruvbox Light Hard Base16
+        gruvbox-light-medium : Gruvbox Light Medium Base16
+        gruvbox-light-soft : Gruvbox Light Soft Base16
+        hardcore : Hardcore Base16
+        harmonic16-dark : Harmonic16 Dark Base16
+        harmonic16-light : Harmonic16 Light Base16
+        heetch-dark : Heetch Dark Base16
+        heetch-light : Heetch Light Base16
+        helios : Helios Base16
+        highlightjs-line-numbers.css : Highlightjs Line Numbers.Css
+        hopscotch : Hopscotch Base16
+        horizon-dark : Horizon Dark Base16
+        horizon-light : Horizon Light Base16
+        humanoid-dark : Humanoid Dark Base16
+        humanoid-light : Humanoid Light Base16
+        hybrid : Hybrid
+        ia-dark : Ia Dark Base16
+        ia-light : Ia Light Base16
+        icy-dark : Icy Dark Base16
+        idea : Idea
+        ir-black : Ir Black
+        ir-black : Ir Black Base16
+        isbl-editor-dark : Isbl Editor Dark
+        isbl-editor-light : Isbl Editor Light
+        isotope : Isotope Base16
+        kimber : Kimber Base16
+        kimbie-dark : Kimbie Dark
+        kimbie-light : Kimbie Light
+        lightfair : Lightfair
+        lioshi : Lioshi
+        london-tube : London Tube Base16
+        macintosh : Macintosh Base16
+        magula : Magula
+        marrakesh : Marrakesh Base16
+        materia : Materia Base16
+        material : Material Base16
+        material-darker : Material Darker Base16
+        material-lighter : Material Lighter Base16
+        material-palenight : Material Palenight Base16
+        material-vivid : Material Vivid Base16
+        mellow-purple : Mellow Purple Base16
+        mexico-light : Mexico Light Base16
+        mocha : Mocha Base16
+        mono-blue : Mono Blue
+        monokai : Monokai
+        monokai16 : Monokai Base16
+        monokai-sublime : Monokai Sublime
+        nebula : Nebula Base16
+        night-owl : Night Owl
+        nnfx-dark : Nnfx Dark
+        nnfx-light : Nnfx Light
+        nord : Nord
+        nord : Nord Base16
+        nova : Nova Base16
+        obsidian : Obsidian
+        ocean : Ocean Base16
+        oceanicnext : Oceanicnext Base16
+        onedark : Onedark Base16
+        one-light : One Light Base16
+        outrun-dark : Outrun Dark Base16
+        papercolor-dark : Papercolor Dark Base16
+        papercolor-light : Papercolor Light Base16
+        paraiso : Paraiso Base16
+        paraiso-dark : Paraiso Dark
+        paraiso-light : Paraiso Light
+        pasque : Pasque Base16
+        phd : Phd Base16
+        pico : Pico Base16
+        pojoaque : Pojoaque
+        pop : Pop Base16
+        porple : Porple Base16
+        purebasic : Purebasic
+        qtcreator-dark : Qtcreator Dark
+        qtcreator-light : Qtcreator Light
+        qualia : Qualia Base16
+        railscasts : Railscasts Base16
+        rainbow : Rainbow
+        rebecca : Rebecca Base16
+        ros-pine : Ros Pine Base16
+        ros-pine-dawn : Ros Pine Dawn Base16
+        ros-pine-moon : Ros Pine Moon Base16
+        routeros : Routeros
+        sagelight : Sagelight Base16
+        sandcastle : Sandcastle Base16
+        school-book : School Book
+        seti-ui : Seti Ui Base16
+        shades-of-purple : Shades Of Purple
+        shapeshifter : Shapeshifter Base16
+        silk-dark : Silk Dark Base16
+        silk-light : Silk Light Base16
+        snazzy : Snazzy Base16
+        solar-flare : Solar Flare Base16
+        solar-flare-light : Solar Flare Light Base16
+        solarized-dark : Solarized Dark Base16
+        solarized-light : Solarized Light Base16
+        spacemacs : Spacemacs Base16
+        srcery : Srcery
+        stackoverflow-dark : Stackoverflow Dark
+        stackoverflow-light : Stackoverflow Light
+        summercamp : Summercamp Base16
+        summerfruit-dark : Summerfruit Dark Base16
+        summerfruit-light : Summerfruit Light Base16
+        sunburst : Sunburst
+        synth-midnight-terminal-dark : Synth Midnight Terminal Dark Base16
+        synth-midnight-terminal-light : Synth Midnight Terminal Light Base16
+        tango : Tango Base16
+        tender : Tender Base16
+        tomorrow : Tomorrow Base16
+        tomorrow-night : Tomorrow Night Base16
+        tomorrow-night-blue : Tomorrow Night Blue
+        tomorrow-night-bright : Tomorrow Night Bright
+        twilight : Twilight Base16
+        unikitty-dark : Unikitty Dark Base16
+        unikitty-light : Unikitty Light Base16
+        vs : Vs
+        vs2015 : Vs2015
+        vulcan : Vulcan Base16
+        windows-10 : Windows 10 Base16
+        windows-10-light : Windows 10 Light Base16
+        windows-95 : Windows 95 Base16
+        windows-95-light : Windows 95 Light Base16
+        windows-high-contrast : Windows High Contrast Base16
+        windows-high-contrast-light : Windows High Contrast Light Base16
+        windows-nt : Windows Nt Base16
+        windows-nt-light : Windows Nt Light Base16
+        woodland : Woodland Base16
+        xcode : Xcode
+        xcode-dusk : Xcode Dusk Base16
+        xt256 : Xt256
+        zenburn : Zenburn Base16
